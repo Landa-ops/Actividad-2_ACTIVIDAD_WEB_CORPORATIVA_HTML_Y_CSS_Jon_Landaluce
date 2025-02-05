@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'BreakingBadFont';
-    src: url('../fonts/BreakingBad.ttf') format('truetype');
+    src: url('../css/fonts/BreakingBad.ttf');
     font-weight: normal;
     font-style: normal;
 }
