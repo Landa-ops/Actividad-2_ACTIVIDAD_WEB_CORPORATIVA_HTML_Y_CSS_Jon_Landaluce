@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'BreakingBadFont';
+    src: url('../fonts/BreakingBad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'BreakingBadFont', sans-serif;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: larger;
+}
+
+.IDidItForMe {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.bromo{
+    width: 200px;
+    height: 200px;
+}
+
+.posterWalterJessy{
+    
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    
+}
+
+.fondoTablaPeriodica{
+    background-color: rgb(5, 34, 6);
+
+
+
+}
+
+

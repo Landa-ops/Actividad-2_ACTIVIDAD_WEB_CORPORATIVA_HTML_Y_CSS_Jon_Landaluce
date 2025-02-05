@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>Breaking Bad - Que comience el juego!</h1>
+
+    <form id="formulario" action="mailto:raul.rodriguez@proeducaglobal.com" method="post" autocomplete="on" target="_blank"> 
+        <h3>Datos personales</h3>
+        Nombre: <input type="text" required>
+        <br>Apellidos: <input type="text" required>
+        <br>Calle: <input type="text">
+        <br>Numero: <input type="text">
+        <br>Piso: <input type="text">
+        <br>Código Postal: <input type="text">
+        <br>Ciudad: <input type="text">
+        <br>DNI: <input type="text">
+        <br>Correo Electrónico: <input type="text" required>
+
+        <h3>Seleccione su genero y fecha de nacimiento:</h3>
+
+        <input type="radio" name="fp">Hombre
+        <br><input type="radio" name="fp">Mujer
+        <br><input type="date">
+
+        <h3>Selecciones su personaje favorito: </h3>
+        <select name="personajes">
+            <option value="1">Jessie Pinkman</option>
+            <option value="2">Walter White</option>
+            <option value="3">Saul Goodman</option>
+            <option value="4">Gustavo Fring</option>
+            <option value="5">Pollos Hermanos</option>
+            <option value="6">Otros personajes</option>
+        </select>
+        
+        <h3>Caja de comentarios</h3>
+        <br><textarea placeholder="Escribe aquí la opinión sobre la serie..." maxlength="200"></textarea>
+        <br><input type="reset" value="Reset">
+        <br><input type="file" value="Adjuntar Archivo">
+        <br><input type="submit" value="Guardar">
+    </form>
+    
+</body>
+</html>

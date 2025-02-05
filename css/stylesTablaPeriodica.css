@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'BreakingBadFont';
+    src: url('../css/fonts/BreakingBad.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../css/fonts/HelveticaforTarget-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('../css/fonts/HelveticaforTarget.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.breaking-bad-font {
+    font-family: 'BreakingBadFont', sans-serif; /* Fuente personalizada con respaldo */
+    font-size: 24px; /* Ajusta el tamaño según lo necesites */
+    color: white; /* Ajusta el color si es necesario */
+}
