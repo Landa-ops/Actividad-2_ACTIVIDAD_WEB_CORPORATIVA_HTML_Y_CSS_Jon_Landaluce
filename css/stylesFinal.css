@@ -1,0 +1,289 @@
+/* FUENTES */
+
+@font-face {
+    font-family: 'BreakingBadFont';
+    src: url('../css/fonts/BreakingBad.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../css/fonts/HelveticaforTarget-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaLight';
+    src: url('../css/fonts/HelveticaforTarget.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* INDEX */
+
+body.index {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica;
+    font-family: 'BreakingBadFont', sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+.IDidItForMe {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 0.8; 
+    font-size: 35px; 
+    font-family: BreakingBadFont; 
+    color: white;
+}
+
+.bromo {
+    background-image: url(../img/logo.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+
+.posterWalterJessy {
+    background-image: url(../img/poster.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+
+/* FORMULARIO */
+
+
+body.formulario {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica;
+    text-align: left;
+}
+
+
+/* TABLA PERIODICA */
+
+body {
+    background-color: #0c3e11;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+.table-bordered {
+    border: 7px solid #2b2c24; 
+    border-collapse: collapse; 
+}
+
+.table-bordered td { 
+    border: 7px solid #2b2c24;
+}
+
+.bold{
+    line-height: 1; 
+    font-size: 30px; 
+    font-family: HelveticaBold;
+}
+.light{
+    line-height: 0.8; 
+    font-size: 9px; 
+    font-family: HelveticaLight;
+}
+
+.bgcolor-walter {
+    background-color: #b9e122;
+}
+
+.bgcolor-hector {
+    background-color: #b9e122;
+}
+
+.bgcolor-ts {
+    background-color: #b9e122;
+}
+
+.bgcolor-gustavo {
+    background-color: #bec5a6;
+}
+
+.bgcolor-tyrus {
+    background-color: #bec5a6;
+}
+
+.bgcolor-juan {
+    background-color: #818e4b;
+}
+
+.bgcolor-skyler {
+    background-color: #b9e122;
+}
+
+.bgcolor-steven {
+    background-color: #f0f8c9;
+}
+
+.bgcolor-saul {
+    background-color: #88a414;
+}
+
+.bgcolor-jessie {
+    background-color: #88a414;
+}
+
+.bgcolor-mike {
+    background-color: #bec5a6;
+}
+
+.bgcolor-holly {
+    background-color: #b9e122;
+}
+
+.bgcolor-ted {
+    background-color: #d5e87d;
+}
+
+.bgcolor-tim {
+    background-color: #f0f8c9;
+}
+
+.bgcolor-kuby {
+    background-color: #88a414;
+}
+
+.bgcolor-lawson {
+    background-color: #88a414;
+}
+
+.bgcolor-combo {
+    background-color: #63702b;
+}
+
+.bgcolor-emilia {
+    background-color: #63702b;
+}
+
+.bgcolor-andima {
+    background-color: #63702b;
+}
+
+.bgcolor-maximine {
+    background-color: #bec5a6;
+}
+
+.bgcolor-denis {
+    background-color: #bec5a6;
+}
+
+.bgcolor-dan {
+    background-color: #bec5a6;
+}
+
+.bgcolor-elliot {
+    background-color: #d5e87d;
+}
+
+.bgcolor-bogdan {
+    background-color: #d5e87d;
+}
+
+.bgcolor-hugo {
+    background-color: #d5e87d;
+}
+
+.bgcolor-mr {
+    background-color: #d5e87d;
+}
+
+.bgcolor-todd {
+    background-color: #88a414;
+}
+
+.bgcolor-ac {
+    background-color: #63702b;
+}
+
+.bgcolor-jm {
+    background-color: #63702b;
+}
+
+.bgcolor-na {
+    background-color: #d5e87d;
+}
+
+.bgcolor-ch {
+    background-color: #d5e87d;
+}
+
+.bgcolor-du {
+    background-color: #d5e87d;
+}
+
+.bgcolor-sp {
+    background-color: #d5e87d;
+}
+
+.bgcolor-gr {
+    background-color: #d5e87d;
+}
+
+.bgcolor-ca {
+    background-color: #d5e87d;
+}
+
+.bgcolor-jp {
+    background-color: #d5e87d;
+}
+
+.bgcolor-ms {
+    background-color: #d5e87d;
+}
+
+.bgcolor-ci {
+    background-color: #d5e87d;
+}
+
+.bgcolor-bc {
+    background-color: #d5e87d;
+}
+
+.bgcolor-dm {
+    background-color: #d5e87d;
+}
+
+.bgcolor-dr {
+    background-color: #d5e87d;
+}
+
+.bgcolor-lo {
+    background-color: #d5e87d;
+}
+
+.bgcolor-dc {
+    background-color: #d5e87d;
+}
+
+.bgcolor-we {
+    background-color: #d5e87d;
+}
